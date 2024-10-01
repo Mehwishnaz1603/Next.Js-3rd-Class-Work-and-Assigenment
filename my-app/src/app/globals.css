@@ -1,0 +1,64 @@
+.Header {
+    background-color: purple; 
+    padding: 10px; 
+  }
+  
+  .Header ul {
+    display: flex; 
+    padding: 0; 
+    margin: 0; 
+  }
+  
+  .Header li {
+    margin: 0 15px; 
+    list-style: none; 
+  }
+  
+  .Header a {
+    color: aqua; 
+    text-decoration: none; 
+  }
+  
+
+.parentContainer{
+    display: flex;
+    align-items: centre;
+    justify-content: space-between;
+  
+    
+  }
+  
+  .childContainer{
+    width: fit-content;
+    height: 200px;
+    margin: 30px;
+    font-size: 50px;
+    font-weight: 600;
+  }
+  .intro{
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 600;
+  }
+  
+  .span{
+    color:deeppink;
+  }
+  .image{
+  
+    width: 15%;
+    height: 100px;
+    margin-top: 2%;
+    margin-right: 20%;
+  }
+  .Links {
+    margin-top: 20px;
+  }
+  
+  .Links a {
+    display: inline-block; /* For spacing */
+    margin-right: 15px; /* Space between links */
+    color: blue; /* Link color */
+    text-decoration: none; /* Remove underline */
+  }
+  
